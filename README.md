@@ -13,4 +13,4 @@ Features include:
   viii. User can view all properties of a specific type - 2 bedroom, 3 bedroom, mini flat etc. 
   ix. User can view a specific property. 
   
-  Its hosted on hersfer.github.io
+  Its hosted on https://hersfer.github.io/PropertyPro_Lite/
