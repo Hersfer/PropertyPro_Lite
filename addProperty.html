@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add Property - PropertyPro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="#" id="addProperty">
+        <h1>New Property</h1>
+        <p><label for="type">Property Type:</label>
+        <select id="type">
+            <option default>Select Property Type</option>
+            <option value='3'>Commercial Building</option>
+            <option value='1'>House</option>
+            <option value='2'>Land</option>  
+        </select></p>
+        <p><label for="acquire">Acquisition Type:</label>
+        <select id="acquire">
+                <option default>Select Acquisition Type</option>
+            <option value='1'>Rent</option>
+            <option value='2'>Sale</option>
+        </select></p>
+        <p><label for="location">Location:</label>
+        <input type="text" id="location" name="location"></p>
+
+        <p><label for="price">Price Range:</label>
+        <input type="text" id="price" name="price"></p>
+
+        <p><label for="img">Property Image/s:</label>
+        <input type="file" name="img" id="img" accept=".jpg, .jpeg, .png" multiple></p>
+        
+        <p><label for="description">Property Description:</label>
+        <textarea name="description"></textarea></p>
+        <button id="submit">Submit</button>
+    </form>
+</body>
+</html>

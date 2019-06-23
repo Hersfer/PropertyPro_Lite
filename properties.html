@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>PropertyPro - Properties</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/index.js"></script>
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><h1 style="font: italic; text-align: left; text-decoration: none;">PropertyPro-Lite</h1></a>
+            <nav class="nav-bar">
+                    <ul>
+                        <li><a href="addProperty.html">Add Property</a></li>
+                        <li><a href="index.html">Logout</a></li>
+                    </ul>
+            </nav>
+        </header>
+        
+        <div class="property">
+            <p><Label for="filter">Order By:</Label>
+                <select id="filter">
+                    <option value='1'>Rent</option>
+                    <option value='2'>Sale</option>
+                    <option value='3'>Mini-Flat</option>
+                    <option value='4'>Bungalow</option>
+                    <option value='4'>Most recent</option>
+                </select> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+            <label for="search">Search:</label>
+            <input type="search" id="search"></p>
+
+        </div>
+        <div class="propertyList">
+            <div id="property1">
+                <h3><a href="#viewProperty" onclick="ViewProperty();">House on sale</a></h3>
+                <p>Location: Makindye</p>
+                <p>Price: 150Million</p>
+                <div id="img1" style="height: 200px;"></div>
+                <p>Description: 2-bedroom House, sitting room, kitchen</p>
+            </div>
+        </div>
+
+        <div class="viewProperty">
+            
+        </div>
+
+    </body>
+</html>
