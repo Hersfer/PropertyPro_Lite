@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+        <header>
+            <img src="images/logo.jpg" style="width: 8%; height: 20%;">
+            <a href="index.html"><h1 style="font: italic; text-align: left; text-decoration: none; top: 0;">PropertyPro-Lite</h1></a>
+        </header>
     <form action="#" id="addProperty">
         <h1>New Property</h1>
         <p><label for="type">Property Type:</label>
@@ -34,7 +38,8 @@
         
         <p><label for="description">Property Description:</label>
         <textarea name="description"></textarea></p>
-        <button id="submit">Submit</button>
+        <button id="submit" onclick="AddProperty();">Submit</button> &ensp;&ensp;
+        <button id="cancel">Cancel</button>
     </form>
 </body>
 </html>
